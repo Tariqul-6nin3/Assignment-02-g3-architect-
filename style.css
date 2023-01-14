@@ -1,0 +1,116 @@
+/* font import link */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&family=Work+Sans:wght@400;500;600;700&display=swap");
+font-family: "Work Sans", sans-serif;
+/* universal style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* basic styles */
+.btn-primary {
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #ff900e;
+  padding: 20px 25px;
+  border: 0;
+}
+/* some root styles */
+header {
+  background-color: #fff4e7;
+  width: 1920px;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+/* navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px;
+  gap: 150px;
+}
+.nav-logo a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.nav-menu ul {
+  display: flex;
+  gap: 55px;
+  margin-right: 20px;
+}
+.nav-menu ul li {
+  list-style: none;
+}
+.nav-menu ul li a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+  text-decoration: none;
+}
+/* navbar section ended */
+/* banner section styles */
+.banner-info {
+  position: relative;
+  margin-top: 117px;
+  text-align: center;
+}
+.banner-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 64px;
+  color: #131313;
+}
+.banner-descrip {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.button {
+  text-align: center;
+  margin-top: 18px;
+}
+.banner-photo {
+  text-align: center;
+  margin-top: 50px;
+}
+/* feature section styles*/
+.feature-section {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 92px;
+}
+.feature-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.feature-info {
+  margin-top: 157px;
+}
+.feature-info-title {
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+.feature-info-title .white {
+  color: #727272;
+}
+.feature-info-title .black {
+  color: #131313;
+}
+.feature-info-title .orange {
+  color: #ff900e;
+}
+.feature-info-descrip {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 32px;
+  line-height: 25px;
+}
