@@ -1,13 +1,17 @@
-/* font import link */
+/* font import link 
+--------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&family=Work+Sans:wght@400;500;600;700&display=swap");
 
-/* universal style */
+/* universal style
+------------------- */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* basic styles */
+
+/* basic styles 
+----------------*/
 .btn-primary {
   font-weight: 600;
   font-size: 20px;
@@ -17,7 +21,9 @@
   border: 0;
   border-radius: 8px;
 }
-/* some root styles */
+
+/* some root styles 
+---------------------*/
 body {
   font-family: "Work Sans", sans-serif;
   max-width: 100%;
@@ -28,7 +34,9 @@ header {
   margin: 0 auto;
   padding: 20px 0px;
 }
-/* navbar styles */
+
+/* navbar styles 
+------------------*/
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -56,7 +64,9 @@ header {
   text-decoration: none;
 }
 /* navbar section ended */
-/* banner section styles */
+
+/* banner section styles
+-------------------------- */
 .banner-info {
   position: relative;
   margin-top: 117px;
@@ -81,7 +91,9 @@ header {
   text-align: center;
   margin-top: 50px;
 }
-/* feature section styles*/
+
+/* feature section styles
+---------------------------*/
 .feature-section {
   max-width: 1440px;
   margin: 0 auto;
@@ -126,7 +138,9 @@ header {
   margin-bottom: 32px;
   line-height: 25px;
 }
-/* feature display styles */
+
+/* feature display styles
+------------------------- */
 .feature-display {
   max-width: 1440px;
   margin: 0 auto;
@@ -134,9 +148,6 @@ header {
   gap: 146px;
   margin-top: 130px;
   position: relative;
-}
-.feature-display-info {
-  /* padding: 20px 20px; */
 }
 .feature-display-image {
   position: relative;
@@ -187,7 +198,9 @@ header {
   font-weight: 700;
   font-size: 65px;
 }
-/* statistics section styles */
+
+/* statistics section styles
+---------------------------- */
 .statistics {
   max-width: 1440px;
   margin: 0 auto;
@@ -216,8 +229,6 @@ header {
   border: 1px solid #ff900e;
   border-radius: 8px;
   padding: 62px 35px;
-  /* width: 170px; */
-  /* height: 135px; */
   text-align: center;
   transition: 1s;
 }
@@ -231,7 +242,6 @@ header {
 }
 .stat-container img {
   margin-bottom: 10px;
-  /* margin-bottom: -35px; */
 }
 .stats-cart-title {
   font-weight: 600;
@@ -247,7 +257,8 @@ header {
 }
 /* statistics styles ended here */
 
-/* sponsors styles started */
+/* sponsors styles started 
+----------------------------*/
 .sponsors {
   max-width: 1440px;
   margin: 0 auto;
@@ -277,7 +288,9 @@ header {
 .org-photo img {
   filter: grayscale(1);
 }
-/* pyramid section styles */
+
+/* pyramid section styles
+-------------------------- */
 .pyramid-section {
   display: flex;
   justify-content: center;
@@ -307,7 +320,8 @@ header {
 }
 /* pyramids styles ended here */
 
-/* footer section styles */
+/* footer section styles
+-------------------------*/
 .footer-section {
   background: #fff4e7;
   border-radius: 8px;
@@ -328,11 +342,12 @@ header {
 Responsive Styles 
 -------------------- */
 @media screen and (min-width: 320px) and (max-width: 480px) {
+  /* whole body */
   body {
     width: 100%;
     margin: 0 auto;
   }
-
+  /* nav responsiv */
   .navbar {
     flex-direction: column;
     width: 100%;
@@ -345,6 +360,8 @@ Responsive Styles
     margin-top: -50px;
     margin-bottom: -25px;
   }
+
+  /* banner responsiv */
   .banner-photo img {
     width: 100%;
   }
@@ -352,6 +369,8 @@ Responsive Styles
     font-size: 30px;
     line-height: 55px;
   }
+
+  /* feature responsiv */
   .feature-section {
     flex-direction: column;
   }
@@ -369,6 +388,8 @@ Responsive Styles
   .feature-section {
     flex-direction: column;
   }
+
+  /* feature head responsiv */
   .feature-info-header {
     text-align: center;
   }
@@ -386,7 +407,6 @@ Responsive Styles
   }
   .feature-display-image {
     position: relative;
-
     text-align: center;
   }
   .feature-display-image img {
@@ -407,6 +427,8 @@ Responsive Styles
     font-size: 35px;
     font-weight: 600;
   }
+
+  /* statistic responsiv */
   .statistic-header {
     text-align: center;
     margin: 0 auto;
@@ -419,13 +441,16 @@ Responsive Styles
     flex-direction: column;
     margin: 0 auto;
   }
+
+  /* sponsor responsiv */
   .sponsor-org {
     flex-direction: column;
   }
   .sponsor-org .org-photo {
     margin: 0 auto;
-    /* width: 100%; */
   }
+
+  /* pyramid responsiv */
   .pyramid-section {
     flex-direction: column;
   }
@@ -440,6 +465,8 @@ Responsive Styles
     width: 90%;
     margin: 0 auto;
   }
+
+  /* footer responsiv */
   .footer-section {
     width: 100%;
     text-align: center;
