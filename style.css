@@ -1,6 +1,6 @@
 /* font import link */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&family=Work+Sans:wght@400;500;600;700&display=swap");
-font-family: "Work Sans", sans-serif;
+
 /* universal style */
 * {
   margin: 0;
@@ -18,11 +18,15 @@ font-family: "Work Sans", sans-serif;
   border-radius: 8px;
 }
 /* some root styles */
+body {
+  font-family: "Work Sans", sans-serif;
+  max-width: 100%;
+}
 header {
   background-color: #fff4e7;
-  width: 1920px;
+  width: auto;
   margin: 0 auto;
-  padding: 20px 40px;
+  padding: 20px 0px;
 }
 /* navbar styles */
 .navbar {
@@ -108,6 +112,13 @@ header {
 .feature-info-title .orange {
   color: #ff900e;
 }
+.feature-header-cart {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 31px 28px;
+  margin-top: 30px;
+}
 .feature-info-descrip {
   font-weight: 400;
   font-size: 16px;
@@ -122,9 +133,13 @@ header {
   display: flex;
   gap: 146px;
   margin-top: 130px;
+  position: relative;
 }
 .feature-display-info {
-  padding: 24px 80px;
+  /* padding: 20px 20px; */
+}
+.feature-display-image {
+  position: relative;
 }
 .feature-info-header {
   display: flex;
@@ -134,7 +149,7 @@ header {
   width: 5px;
   height: 106px;
   background-color: #ff900e;
-  margin-top: 46px;
+  /* margin-top: 46px; */
   margin-right: 15px;
 }
 .header-title {
@@ -161,4 +176,151 @@ header {
   font-weight: 400;
   font-size: 16px;
   color: #727272;
+  margin-top: 8px;
+}
+.second-btn {
+  padding: 40px 20px;
+  position: absolute;
+  top: 90%;
+  left: -18%;
+}
+.btn-head {
+  font-weight: 700;
+  font-size: 65px;
+}
+/* statistics section styles */
+.statistics {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.statistic-header {
+}
+.statistic-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.statistic-descrip {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.stats-carts {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 100px;
+  margin-top: 100px;
+}
+.stat-container {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  padding: 62px 35px;
+  /* width: 170px; */
+  /* height: 135px; */
+  text-align: center;
+  transition: 1s;
+}
+.stat-container:hover {
+  transform: translate(30px, 20px) rotate(180deg) scale(0.5);
+  background-color: #f368e0;
+  border: 4px solid #000000;
+}
+.content {
+  padding: 10px 10px;
+}
+.stat-container img {
+  margin-bottom: 10px;
+  /* margin-bottom: -35px; */
+}
+.stats-cart-title {
+  font-weight: 600;
+  font-size: 45px;
+  color: #424242;
+  margin-bottom: 5px;
+}
+.stats-cart-descrip {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+  margin: 0;
+}
+/* statistics styles ended here */
+
+/* sponsors styles started */
+.sponsors {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 180px;
+}
+.sponsor-header {
+  text-align: center;
+  margin-bottom: 90px;
+}
+.sponsor-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.sponsor-descrip {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  line-height: 25px;
+}
+.sponsor-org {
+  display: flex;
+  justify-content: center;
+  gap: 155px;
+}
+.org-photo img {
+  filter: grayscale(1);
+}
+/* pyramid section styles */
+.pyramid-section {
+  display: flex;
+  justify-content: center;
+  gap: 65px;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 180px;
+}
+.pyramid-info {
+  text-align: center;
+}
+.pyramid-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.pyramid-descrip {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  line-height: 25px;
+  padding: 10px 10px;
+  background: #ffffffc5;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+/* pyramids styles ended here */
+
+/* footer section styles */
+.footer-section {
+  background: #fff4e7;
+  border-radius: 8px;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 180px;
+  text-align: center;
+  padding: 23px 57px;
+  margin-bottom: 30px;
+}
+.footer-section p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #424242;
 }
