@@ -24,7 +24,7 @@ body {
 }
 header {
   background-color: #fff4e7;
-  width: auto;
+  width: 100%;
   margin: 0 auto;
   padding: 20px 0px;
 }
@@ -149,7 +149,6 @@ header {
   width: 5px;
   height: 106px;
   background-color: #ff900e;
-  /* margin-top: 46px; */
   margin-right: 15px;
 }
 .header-title {
@@ -164,7 +163,7 @@ header {
   line-height: 22px;
 }
 .cart-section {
-  padding: 0px 30px;
+  padding: 45px 30px;
 }
 .header-cart-title {
   font-weight: 600;
@@ -192,7 +191,7 @@ header {
 .statistics {
   max-width: 1440px;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 180px;
 }
 .statistic-header {
 }
@@ -323,4 +322,132 @@ header {
   font-weight: 400;
   font-size: 20px;
   color: #424242;
+}
+
+/* -----------------
+Responsive Styles 
+-------------------- */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .navbar {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .nav-menu ul {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: -25px;
+  }
+  .banner-photo img {
+    width: 100%;
+  }
+  .banner-title {
+    font-size: 30px;
+    line-height: 55px;
+  }
+  .feature-section {
+    flex-direction: column;
+  }
+  .feature-image {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+  .feature-image img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .feature-info {
+    text-align: center;
+  }
+  .feature-section {
+    flex-direction: column;
+  }
+  .feature-info-header {
+    text-align: center;
+  }
+  .vertical-line {
+    margin-left: 10px;
+  }
+  .header-title {
+    font-size: 30px;
+  }
+  .feature-info-header h3 {
+    text-align: left;
+  }
+  .feature-info-header p {
+    text-align: center;
+  }
+  .feature-display-image {
+    position: relative;
+
+    text-align: center;
+  }
+  .feature-display-image img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .feature-display {
+    flex-direction: column;
+  }
+  .second-btn {
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left: 55px;
+    top: 90%;
+  }
+  .btn-head {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .statistic-header {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .statistic-discrip {
+    margin-bottom: 30px;
+  }
+  .stats-carts {
+    width: 80%;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .sponsor-org {
+    flex-direction: column;
+  }
+  .sponsor-org .org-photo {
+    margin: 0 auto;
+    /* width: 100%; */
+  }
+  .pyramid-section {
+    flex-direction: column;
+  }
+  .pyramid-descrip {
+    margin-bottom: 25px;
+  }
+  .pyramid-photo {
+    text-align: center;
+    margin-bottom: -100px;
+  }
+  .pyramid-photo img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .footer-section {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px 10px;
+  }
+  .footer-section p {
+    font-size: 14px;
+    margin: auto;
+  }
 }
